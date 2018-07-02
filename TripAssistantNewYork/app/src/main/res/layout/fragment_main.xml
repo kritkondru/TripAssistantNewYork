@@ -93,48 +93,61 @@
              android:id="@+id/imageView3"
              android:layout_width="180dp"
              android:layout_height="184dp"
-             android:layout_marginTop="16dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
              android:src="@drawable/broadway"
-             app:layout_constraintStart_toStartOf="@+id/button2"
+             app:layout_constraintEnd_toStartOf="@+id/imageView4"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toStartOf="parent"
              app:layout_constraintTop_toTopOf="parent" />
 
          <ImageView
              android:id="@+id/imageView4"
              android:layout_width="179dp"
              android:layout_height="184dp"
-             android:layout_marginTop="16dp"
+             android:layout_marginTop="8dp"
              android:src="@drawable/brooklynbridge"
+             app:layout_constraintEnd_toStartOf="@+id/imageView5"
+             app:layout_constraintHorizontal_bias="0.5"
              app:layout_constraintStart_toEndOf="@+id/imageView3"
-             app:layout_constraintStart_toStartOf="@+id/button3"
              app:layout_constraintTop_toTopOf="parent" />
 
          <ImageView
              android:id="@+id/imageView6"
              android:layout_width="180dp"
              android:layout_height="184dp"
-             android:layout_marginTop="16dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
              android:src="@drawable/niagrafalls"
-             app:layout_constraintStart_toStartOf="@+id/button5"
+             app:layout_constraintEnd_toStartOf="@+id/imageView7"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toStartOf="parent"
              app:layout_constraintTop_toBottomOf="@+id/button2" />
 
          <ImageView
              android:id="@+id/imageView7"
              android:layout_width="180dp"
              android:layout_height="184dp"
-             android:layout_marginTop="16dp"
+             android:layout_marginTop="8dp"
              android:src="@drawable/rockafellercenter"
-             app:layout_constraintHorizontal_chainStyle="spread_inside"
+             app:layout_constraintEnd_toStartOf="@+id/imageView8"
+             app:layout_constraintHorizontal_bias="0.5"
              app:layout_constraintStart_toEndOf="@+id/imageView6"
-             app:layout_constraintStart_toStartOf="@+id/button6"
              app:layout_constraintTop_toBottomOf="@+id/button3" />
 
          <ImageView
              android:id="@+id/imageView8"
              android:layout_width="180dp"
              android:layout_height="184dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginStart="16dp"
              android:layout_marginTop="16dp"
              android:src="@drawable/statueofliberty"
-             app:layout_constraintStart_toStartOf="@+id/button7"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/imageView7"
              app:layout_constraintTop_toBottomOf="@+id/button4" />
 
          <ImageView
@@ -142,18 +155,25 @@
              android:layout_width="180dp"
              android:layout_height="184dp"
 
-             android:layout_marginTop="16dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="8dp"
              android:src="@drawable/centralpark"
-             app:layout_constraintTop_toTopOf="parent"
-             tools:layout_editor_absoluteX="412dp" />
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/imageView4"
+             app:layout_constraintTop_toTopOf="parent" />
 
          <ImageView
              android:id="@+id/imageView9"
              android:layout_width="180dp"
              android:layout_height="184dp"
+             android:layout_marginStart="8dp"
              android:layout_marginTop="8dp"
              android:src="@drawable/timessquare"
-             app:layout_constraintStart_toStartOf="@+id/button8"
+             app:layout_constraintEnd_toStartOf="@+id/imageView10"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toStartOf="parent"
              app:layout_constraintTop_toBottomOf="@+id/button5" />
 
          <ImageView
@@ -162,27 +182,34 @@
              android:layout_height="184dp"
              android:layout_marginTop="8dp"
              android:src="@drawable/longbeach"
-             app:layout_constraintStart_toStartOf="@+id/button9"
+             app:layout_constraintEnd_toStartOf="@+id/imageView11"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/imageView9"
              app:layout_constraintTop_toBottomOf="@+id/button6" />
 
          <ImageView
              android:id="@+id/imageView11"
              android:layout_width="180dp"
              android:layout_height="184dp"
+             android:layout_marginEnd="8dp"
              android:layout_marginTop="8dp"
              android:src="@drawable/metropolitainmuseum"
-             app:layout_constraintStart_toStartOf="@+id/button10"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/imageView10"
              app:layout_constraintTop_toBottomOf="@+id/button7" />
 
          <Button
              android:id="@+id/button2"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:layout_marginStart="16dp"
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Broadway"
-             android:textSize="18sp"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toStartOf="@+id/button3"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintHorizontal_chainStyle="spread"
              app:layout_constraintStart_toStartOf="parent"
              app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -190,12 +217,14 @@
              android:id="@+id/button3"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
+             android:layout_marginTop="12dp"
              android:background="@android:color/background_light"
              android:text="Brooklyn Bridge"
-             android:textSize="18sp"
-             app:layout_constraintTop_toBottomOf="@+id/imageView4"
-             tools:layout_editor_absoluteX="221dp" />
+             android:textSize="14sp"
+             app:layout_constraintEnd_toStartOf="@+id/button4"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/button2"
+             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
          <Button
              android:id="@+id/button4"
@@ -204,8 +233,10 @@
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Central Park"
-             android:textSize="18sp"
-             app:layout_constraintStart_toStartOf="@+id/imageView5"
+             android:textSize="14sp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/button3"
              app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
          <Button
@@ -215,9 +246,12 @@
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Niagra Falls"
-             android:textSize="18sp"
-             app:layout_constraintTop_toBottomOf="@+id/imageView6"
-             tools:layout_editor_absoluteX="16dp" />
+             android:textSize="14sp"
+             app:layout_constraintEnd_toStartOf="@+id/button6"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintHorizontal_chainStyle="spread"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
          <Button
              android:id="@+id/button6"
@@ -227,8 +261,10 @@
              android:background="@android:color/background_light"
              android:text="Rockfellar Center"
              android:textSize="14sp"
-             app:layout_constraintTop_toBottomOf="@+id/imageView7"
-             tools:layout_editor_absoluteX="221dp" />
+             app:layout_constraintEnd_toStartOf="@+id/button7"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/button5"
+             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
          <Button
              android:id="@+id/button7"
@@ -237,8 +273,10 @@
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Statue of Liberty"
-             app:layout_constraintTop_toBottomOf="@+id/imageView8"
-             tools:layout_editor_absoluteX="412dp" />
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/button6"
+             app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
          <Button
              android:id="@+id/button8"
@@ -247,9 +285,12 @@
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Times Square"
-             android:textSize="18sp"
-             app:layout_constraintTop_toBottomOf="@+id/imageView9"
-             tools:layout_editor_absoluteX="16dp" />
+             android:textSize="14sp"
+             app:layout_constraintEnd_toStartOf="@+id/button9"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintHorizontal_chainStyle="spread"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
          <Button
              android:id="@+id/button9"
@@ -258,9 +299,11 @@
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Long Island"
-             android:textSize="18sp"
-             app:layout_constraintTop_toBottomOf="@+id/imageView10"
-             tools:layout_editor_absoluteX="213dp" />
+             android:textSize="14sp"
+             app:layout_constraintEnd_toStartOf="@+id/button10"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/button8"
+             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
          <Button
              android:id="@+id/button10"
@@ -269,8 +312,10 @@
              android:layout_marginTop="8dp"
              android:background="@android:color/background_light"
              android:text="Metropolitan Museum"
-             app:layout_constraintTop_toBottomOf="@+id/imageView11"
-             tools:layout_editor_absoluteX="411dp" />
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+             app:layout_constraintStart_toEndOf="@+id/button9"
+             app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
       </android.support.constraint.ConstraintLayout>
 
