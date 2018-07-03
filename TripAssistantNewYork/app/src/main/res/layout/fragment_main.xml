@@ -77,247 +77,226 @@
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-      <android.support.constraint.ConstraintLayout
-          android:layout_width="match_parent"
-          android:layout_height="789dp"
-          android:layout_marginTop="8dp"
-          app:layout_constraintBottom_toBottomOf="parent"
-          app:layout_constraintEnd_toEndOf="parent"
-          app:layout_constraintHorizontal_bias="0.0"
-          app:layout_constraintStart_toStartOf="parent"
-          app:layout_constraintTop_toBottomOf="@+id/textView3"
-          app:layout_constraintVertical_bias="1.0">
+       <android.support.constraint.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="8dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/textView3"
+           app:layout_constraintVertical_bias="1.0">
 
 
-         <ImageView
-             android:id="@+id/imageView3"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginEnd="16dp"
-             android:layout_marginStart="8dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/broadway"
-             app:layout_constraintEnd_toStartOf="@+id/imageView4"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toStartOf="parent"
-             app:layout_constraintTop_toTopOf="parent" />
+           <ImageView
+               android:id="@+id/imageView12"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/wtc"
+               app:layout_constraintEnd_toStartOf="@+id/imageView13"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />
 
-         <ImageView
-             android:id="@+id/imageView4"
-             android:layout_width="179dp"
-             android:layout_height="184dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/brooklynbridge"
-             app:layout_constraintEnd_toStartOf="@+id/imageView5"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/imageView3"
-             app:layout_constraintTop_toTopOf="parent" />
+           <ImageView
+               android:id="@+id/imageView13"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/brooklynbridge"
+               app:layout_constraintEnd_toStartOf="@+id/imageView14"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/imageView12"
+               app:layout_constraintTop_toTopOf="parent" />
 
-         <ImageView
-             android:id="@+id/imageView6"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginEnd="16dp"
-             android:layout_marginStart="8dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/niagrafalls"
-             app:layout_constraintEnd_toStartOf="@+id/imageView7"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toStartOf="parent"
-             app:layout_constraintTop_toBottomOf="@+id/button2" />
+           <ImageView
+               android:id="@+id/imageView14"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/centralpark"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/imageView13"
+               app:layout_constraintTop_toTopOf="parent" />
 
-         <ImageView
-             android:id="@+id/imageView7"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/rockafellercenter"
-             app:layout_constraintEnd_toStartOf="@+id/imageView8"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/imageView6"
-             app:layout_constraintTop_toBottomOf="@+id/button3" />
+           <Button
+               android:id="@+id/button"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:gravity="center"
+               android:text="World Trade\nCenter"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toStartOf="@+id/button2"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
-         <ImageView
-             android:id="@+id/imageView8"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginEnd="8dp"
-             android:layout_marginStart="16dp"
-             android:layout_marginTop="16dp"
-             android:src="@drawable/statueofliberty"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/imageView7"
-             app:layout_constraintTop_toBottomOf="@+id/button4" />
+           <Button
+               android:id="@+id/button2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Brooklyn\nBridge"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toStartOf="@+id/button3"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/button"
+               app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
-         <ImageView
-             android:id="@+id/imageView5"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
+           <Button
+               android:id="@+id/button3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Central\nPark"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/button2"
+               app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
-             android:layout_marginEnd="8dp"
-             android:layout_marginStart="16dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/centralpark"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/imageView4"
-             app:layout_constraintTop_toTopOf="parent" />
+           <ImageView
+               android:id="@+id/imageView3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/niagrafalls"
+               app:layout_constraintEnd_toStartOf="@+id/imageView4"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/button" />
 
-         <ImageView
-             android:id="@+id/imageView9"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginStart="8dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/timessquare"
-             app:layout_constraintEnd_toStartOf="@+id/imageView10"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toStartOf="parent"
-             app:layout_constraintTop_toBottomOf="@+id/button5" />
+           <ImageView
+               android:id="@+id/imageView4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/rockafellarcenter"
+               app:layout_constraintEnd_toStartOf="@+id/imageView5"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/imageView3"
+               app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-         <ImageView
-             android:id="@+id/imageView10"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/longbeach"
-             app:layout_constraintEnd_toStartOf="@+id/imageView11"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/imageView9"
-             app:layout_constraintTop_toBottomOf="@+id/button6" />
+           <ImageView
+               android:id="@+id/imageView5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/statueofliberty"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/imageView4"
+               app:layout_constraintTop_toBottomOf="@+id/button3" />
 
-         <ImageView
-             android:id="@+id/imageView11"
-             android:layout_width="180dp"
-             android:layout_height="184dp"
-             android:layout_marginEnd="8dp"
-             android:layout_marginTop="8dp"
-             android:src="@drawable/metropolitainmuseum"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/imageView10"
-             app:layout_constraintTop_toBottomOf="@+id/button7" />
+           <Button
+               android:id="@+id/button4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Niagra\nFalls"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toStartOf="@+id/button5"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-         <Button
-             android:id="@+id/button2"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Broadway"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toStartOf="@+id/button3"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintHorizontal_chainStyle="spread"
-             app:layout_constraintStart_toStartOf="parent"
-             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+           <Button
+               android:id="@+id/button5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Rockafellar\nCenter"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toStartOf="@+id/button6"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/button4"
+               app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-         <Button
-             android:id="@+id/button3"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="12dp"
-             android:background="@android:color/background_light"
-             android:text="Brooklyn Bridge"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toStartOf="@+id/button4"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/button2"
-             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+           <Button
+               android:id="@+id/button6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Statue Of\nLiberty"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/button5"
+               app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
-         <Button
-             android:id="@+id/button4"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Central Park"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/button3"
-             app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+           <ImageView
+               android:id="@+id/imageView6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/timessquare"
+               app:layout_constraintEnd_toStartOf="@+id/imageView7"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/button4" />
 
-         <Button
-             android:id="@+id/button5"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Niagra Falls"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toStartOf="@+id/button6"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintHorizontal_chainStyle="spread"
-             app:layout_constraintStart_toStartOf="parent"
-             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+           <ImageView
+               android:id="@+id/imageView7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/broadway"
+               app:layout_constraintEnd_toStartOf="@+id/imageView8"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/imageView6"
+               app:layout_constraintTop_toBottomOf="@+id/button5" />
 
-         <Button
-             android:id="@+id/button6"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Rockfellar Center"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toStartOf="@+id/button7"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/button5"
-             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+           <ImageView
+               android:id="@+id/imageView8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:src="@mipmap/longbeach"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/imageView7"
+               app:layout_constraintTop_toBottomOf="@+id/button6" />
 
-         <Button
-             android:id="@+id/button7"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Statue of Liberty"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/button6"
-             app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+           <Button
+               android:id="@+id/button7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Times\nSquare"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toStartOf="@+id/button8"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
-         <Button
-             android:id="@+id/button8"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Times Square"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toStartOf="@+id/button9"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintHorizontal_chainStyle="spread"
-             app:layout_constraintStart_toStartOf="parent"
-             app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+           <Button
+               android:id="@+id/button8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Broadway"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toStartOf="@+id/button9"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/button7"
+               app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
-         <Button
-             android:id="@+id/button9"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Long Island"
-             android:textSize="14sp"
-             app:layout_constraintEnd_toStartOf="@+id/button10"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/button8"
-             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
-
-         <Button
-             android:id="@+id/button10"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="8dp"
-             android:background="@android:color/background_light"
-             android:text="Metropolitan Museum"
-             app:layout_constraintEnd_toEndOf="parent"
-             app:layout_constraintHorizontal_bias="0.5"
-             app:layout_constraintStart_toEndOf="@+id/button9"
-             app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
-      </android.support.constraint.ConstraintLayout>
+           <Button
+               android:id="@+id/button9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:text="Long\nBeach"
+               android:textSize="10sp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.5"
+               app:layout_constraintStart_toEndOf="@+id/button8"
+               app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+       </android.support.constraint.ConstraintLayout>
 
    </android.support.constraint.ConstraintLayout>
 </ScrollView>
