@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
          toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         getSupportActionBar().setIcon(R.drawable.ic_icon);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -31,7 +31,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    /** Called when the user taps the World Trade Center button */
+    public void displaywtcinfo(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, DisplayWtcInfo.class);
+        Button wtc_btn=(Button)findViewById(R.id.button);
+        String message="Hello Sonal, Sahu";
+        intent.putExtra("name",message);
+        startActivity(intent);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

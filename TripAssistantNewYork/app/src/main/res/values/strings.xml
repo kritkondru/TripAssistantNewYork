@@ -2,4 +2,11 @@
     <string name="app_name">TripAssistantNewYork</string>
     <string name="action_settings">Settings</string>
     <string name="action_share">Share</string>
+    <string name="wtc_decs">The World Trade Center is a partially completed complex of buildings in Lower Manhattan, New York City, U.S., replacing the original seven World Trade Center buildings on the same site that were destroyed in the September 11 attacks. The site is being rebuilt with five new skyscrapers, three of which have been completed, a memorial and museum to those killed in the attacks, and a transportation hub.</string>
+    <string name="stayairpnb"><a href="https://www.airbnb.com">Airbnb</a></string>
+    <string name="staypriceline"><a href="https://www.priceline.com/hotels/">Price Line</a></string>
+    <string name="staywtcthird"><a href="https://www.expedia.com/Hotels">Expedia</a></string>
+    <string name="restwtcfirst"><a href="https://www.eataly.com/us_en/stores/nyc-downtown/">Eataly NYC Downtowne</a></string>
+    <string name="restwtcsecond"><a href="https://www.trinityplacenyc.com/">Trinity Place</a></string>
+    <string name="restwtcthird"><a href="https://www.bluesmoke.com/">Blue Smoke</a></string>
 </resources>
