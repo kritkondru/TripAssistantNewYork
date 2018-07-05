@@ -128,9 +128,9 @@
                android:layout_height="wrap_content"
                android:layout_marginTop="8dp"
                android:gravity="center"
+               android:onClick="displaywtcinfo"
                android:text="World Trade\nCenter"
                android:textSize="10sp"
-               android:onClick="displaywtcinfo"
                app:layout_constraintEnd_toStartOf="@+id/button2"
                app:layout_constraintHorizontal_bias="0.5"
                app:layout_constraintStart_toStartOf="parent"
@@ -144,10 +144,12 @@
                android:layout_marginTop="8dp"
                android:text="Brooklyn\nBridge"
                android:textSize="10sp"
+               android:onClick="displaybrooklynbridgeinfo"
                app:layout_constraintEnd_toStartOf="@+id/button3"
                app:layout_constraintHorizontal_bias="0.5"
                app:layout_constraintStart_toEndOf="@+id/button"
-               app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+               app:layout_constraintTop_toBottomOf="@+id/imageView13"
+               tools:ignore="OnClick" />
 
            <Button
                android:id="@+id/button3"
@@ -156,10 +158,12 @@
                android:layout_marginTop="8dp"
                android:text="Central\nPark"
                android:textSize="10sp"
+               android:onClick="displaycentralparkinfo"
                app:layout_constraintEnd_toEndOf="parent"
                app:layout_constraintHorizontal_bias="0.5"
                app:layout_constraintStart_toEndOf="@+id/button2"
-               app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+               app:layout_constraintTop_toBottomOf="@+id/imageView14"
+               tools:ignore="OnClick" />
 
            <ImageView
                android:id="@+id/imageView3"
@@ -211,7 +215,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_marginTop="8dp"
-               android:text="Rockafellar\nCenter"
+               android:text="Rockafeller\nCenter"
                android:textSize="10sp"
                app:layout_constraintEnd_toStartOf="@+id/button6"
                app:layout_constraintHorizontal_bias="0.5"
@@ -280,12 +284,14 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_marginTop="8dp"
-               android:text="Broadway"
+               android:text="Broadway\nTheatre"
                android:textSize="10sp"
+               android:onClick="displaybroadwayinfo"
                app:layout_constraintEnd_toStartOf="@+id/button9"
                app:layout_constraintHorizontal_bias="0.5"
                app:layout_constraintStart_toEndOf="@+id/button7"
-               app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+               app:layout_constraintTop_toBottomOf="@+id/imageView7"
+               tools:ignore="OnClick"/>
 
            <Button
                android:id="@+id/button9"
@@ -297,7 +303,8 @@
                app:layout_constraintEnd_toEndOf="parent"
                app:layout_constraintHorizontal_bias="0.5"
                app:layout_constraintStart_toEndOf="@+id/button8"
-               app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+               app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                />
        </android.support.constraint.ConstraintLayout>
 
    </android.support.constraint.ConstraintLayout>

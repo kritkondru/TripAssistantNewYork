@@ -12,15 +12,27 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setIcon(R.drawable.ic_icon);
+
+        Button btn9 = (Button) findViewById(R.id.button9);
+        Button btn4 = (Button) findViewById(R.id.button4);
+        Button btn6 = (Button) findViewById(R.id.button6);
+        Button btn7 = (Button) findViewById(R.id.button7);
+        Button btn5 = (Button) findViewById(R.id.button5);
+        btn9.setOnClickListener(this);
+        btn4.setOnClickListener(this);
+        btn5.setOnClickListener(this);
+        btn6.setOnClickListener(this);
+        btn7.setOnClickListener(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -31,13 +43,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    /** Called when the user taps the World Trade Center button */
+
+    /**
+     * Called when the user taps the World Trade Center button
+     */
     public void displaywtcinfo(View view) {
         // Do something in response to button
         Intent intent = new Intent(this, DisplayWtcInfo.class);
-        Button wtc_btn=(Button)findViewById(R.id.button);
-        String message="Hello Sonal, Sahu";
-        intent.putExtra("name",message);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps the Brooklyn Bridge button */
+    public void displaybrooklynbridgeinfo(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, DisplayBrooklynBridgeInfo.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps the Central Park button */
+    public void displaycentralparkinfo(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, DisplayCentralParkInfo.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps the Broadway button */
+    public void displaybroadwayinfo(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, DisplayBroadwayInfo.class);
         startActivity(intent);
     }
     @Override
@@ -54,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        switch(id){
+        switch (id) {
             case R.id.action_share: {
                 final Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
@@ -64,11 +97,37 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
             case R.id.action_settings:
-                Toast.makeText(this,"Settings item is clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Settings item is clicked", Toast.LENGTH_SHORT).show();
                 return true;
 
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.button9:
+                Intent lb = new Intent(this, DesignLBLayout.class);
+                startActivity(lb);
+                break;
+            case R.id.button4:
+                Intent nf = new Intent(this, NiagraFalls.class);
+                startActivity(nf);
+                break;
+            case R.id.button6:
+                Intent sol = new Intent(this, StatueOfLiberty.class);
+                startActivity(sol);
+                break;
+            case R.id.button7:
+                Intent ts = new Intent(this, TimesSquare.class);
+                startActivity(ts);
+                break;
+            case R.id.button5:
+                Intent rc = new Intent(this,RockefellerCenter.class);
+                startActivity(rc);
+                break;
         }
     }
 }

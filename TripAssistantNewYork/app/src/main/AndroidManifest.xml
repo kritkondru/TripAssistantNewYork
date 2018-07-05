@@ -19,13 +19,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayWtcInfo">
-            android:parentActivityName=".MainActivity">
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+        <activity
+            android:name=".DesignLBLayout"
+            android:label="@string/title_activity_design_lblayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NiagraFalls"
+            android:label="@string/title_activity_niagra_falls"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StatueOfLiberty"
+            android:label="@string/title_activity_statue_of_liberty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimesSquare"
+            android:label="@string/title_activity_times_square"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RockefellerCenter"
+            android:label="@string/title_activity_rockefeller_center"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayBrooklynBridgeInfo"
+            android:label="@string/title_activity_display_brooklyn_bridge_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayCentralParkInfo"
+            android:label="@string/title_activity_display_central_park_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayBroadwayInfo"
+            android:label="@string/title_activity_display_broadway_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayWtcInfo"
+            android:label="@string/title_activity_display_wtc_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
