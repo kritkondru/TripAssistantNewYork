@@ -12,15 +12,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class DesignLBLayout extends AppCompatActivity {
+public class LongBeach extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_design_lblayout);
-
-        Intent intent = getIntent();
-        String message = intent.getStringExtra("name");
+        setContentView(R.layout.activity_long_beach);
         EditText editTextMultilb=(EditText) findViewById(R.id.editTextlb);
         editTextMultilb.setEnabled(false);
         editTextMultilb.setKeyListener(null);
@@ -40,8 +37,6 @@ public class DesignLBLayout extends AppCompatActivity {
         restlbthirdtext.setMovementMethod(LinkMovementMethod.getInstance());
         TextView restlbsecondtext=(TextView)findViewById(R.id.textView27);
         restlbsecondtext.setMovementMethod(LinkMovementMethod.getInstance());
-
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
