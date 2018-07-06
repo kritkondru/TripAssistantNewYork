@@ -70,5 +70,4 @@ public class DisplayCentralParkInfo extends AppCompatActivity {
         }
     }
 
-
 }

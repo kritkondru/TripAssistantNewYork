@@ -4,7 +4,7 @@
     <string name="action_share">Share</string>
     //WTC
     <string name="title_activity_display_wtc_info">World Trade Center</string>
-    <string name="wtc_decs">The original World Trade Center was a large complex of seven buildings in Lower Manhattan, New York City, United States. It featured the landmark Twin Towers, which opened on April 4, 1973 and were destroyed in 2001 during the September 11 attacks. At the time of their completion, the Twin Towers — the original 1 World Trade Center, at 1,368 feet (417 m); and 2 World Trade Center, at 1,362 feet (415.1 m) — were the tallest buildings in the world. Other buildings in the complex included the Marriott World Trade Center (3 WTC), 4 WTC, 5 WTC, 6 WTC, and 7 WTC. The complex was located in New York City's Financial District and contained 13,400,000 square feet (1,240,000 m2) of office space.</string>
+    <string name="wtc_decs">The original World Trade Center was a large complex of seven buildings in Lower Manhattan, New York City, United States. It featured the landmark Twin Towers, which opened on April 4, 1973 and were destroyed in 2001 during the September 11 attacks. At the time of their completion, the Twin Towers — the original 1 World Trade Center, at 1,368 feet (417 m); and 2 World Trade Center, at 1,362 feet (415.1 m) — were the tallest buildings in the world. Other buildings in the complex included the Marriott World Trade Center (3 WTC), 4 WTC, 5 WTC, 6 WTC, and 7 WTC. The complex was located in New York Citys Financial District and contained 13,400,000 square feet (1,240,000 m2) of office space.</string>
     <string name="stayairpnb"><a href="https://www.airbnb.com">Airbnb</a></string>
     <string name="staypriceline"><a href="https://www.priceline.com/hotels/">Price Line</a></string>
     <string name="staywtcthird"><a href="https://www.expedia.com/Hotels">Expedia</a></string>
@@ -94,7 +94,7 @@ The falls are 17 miles (27 km) north-northwest of Buffalo, New York, and 75 mile
     <string name="bwrestfirst"><a href="https://victorscafe.com/">Victors Cafe</a></string>
     <string name="bwrestsecond"><a href="http://toloachenyc.com/mobile/home.html">Toloache</a></string>
     <string name="bwrestthird"><a href="http://www.cieloatthemayfair.com/">Cielo at The Mayfair</a></string>
-
+    <string name="title_activity_long_beach">Long Beach</string>
 
 
 </resources>

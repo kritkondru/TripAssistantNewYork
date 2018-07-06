@@ -20,10 +20,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DesignLBLayout"
-            android:label="@string/title_activity_design_lblayout"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".NiagraFalls"
             android:label="@string/title_activity_niagra_falls"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -54,6 +50,10 @@
         <activity
             android:name=".DisplayWtcInfo"
             android:label="@string/title_activity_display_wtc_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LongBeach"
+            android:label="@string/title_activity_long_beach"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

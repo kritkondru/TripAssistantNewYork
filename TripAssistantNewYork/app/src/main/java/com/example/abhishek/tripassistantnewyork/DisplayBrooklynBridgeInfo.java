@@ -55,7 +55,6 @@ public class DisplayBrooklynBridgeInfo extends AppCompatActivity {
             }
         });
     }
-
     public void bbshareChooserIntent(View view)
     {
         try {
@@ -69,5 +68,4 @@ public class DisplayBrooklynBridgeInfo extends AppCompatActivity {
             Toast.makeText(this, "Request failed try again: " + t.toString(), Toast.LENGTH_LONG).show();
         }
     }
-
 }

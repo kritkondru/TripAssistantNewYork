@@ -23,16 +23,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setSupportActionBar(toolbar);
         getSupportActionBar().setIcon(R.drawable.ic_icon);
 
-        Button btn9 = (Button) findViewById(R.id.button9);
+
         Button btn4 = (Button) findViewById(R.id.button4);
+        Button btn5 = (Button) findViewById(R.id.button5);
         Button btn6 = (Button) findViewById(R.id.button6);
         Button btn7 = (Button) findViewById(R.id.button7);
-        Button btn5 = (Button) findViewById(R.id.button5);
-        btn9.setOnClickListener(this);
+        Button btn9 = (Button) findViewById(R.id.button9);
+
         btn4.setOnClickListener(this);
         btn5.setOnClickListener(this);
         btn6.setOnClickListener(this);
         btn7.setOnClickListener(this);
+        btn9.setOnClickListener(this);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -109,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button9:
-                Intent lb = new Intent(this, DesignLBLayout.class);
+                Intent lb = new Intent(this, LongBeach.class);
                 startActivity(lb);
                 break;
             case R.id.button4:
@@ -125,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(ts);
                 break;
             case R.id.button5:
-                Intent rc = new Intent(this,RockefellerCenter.class);
+                Intent rc = new Intent(this, RockefellerCenter.class);
                 startActivity(rc);
                 break;
         }

@@ -54,7 +54,6 @@ public class DisplayWtcInfo extends AppCompatActivity {
             }
         });
     }
-
     public void shareChooserIntent(View view)
     {
         try {
