@@ -10,6 +10,7 @@ import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class RockefellerCenter extends AppCompatActivity {
 
@@ -51,5 +52,17 @@ public class RockefellerCenter extends AppCompatActivity {
             }
         });
     }
-
+    public void rfshareChooserIntent(View view)
+    {
+        try {
+            final Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Rockfellar Center Trip Information");
+            intent.putExtra(Intent.EXTRA_TEXT, "Find the below details:-");
+            startActivity(Intent.createChooser(intent, "Share the trip information through..."));
+        }catch(Throwable t)
+        {
+            Toast.makeText(this, "Request failed try again: " + t.toString(), Toast.LENGTH_LONG).show();
+        }
+    }
 }

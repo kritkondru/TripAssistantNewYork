@@ -19,7 +19,7 @@
     <string name="restlbfirst"><a href="http://www.grottalbny.com/">Grotto Di Fuoco</a></string>
     <string name="restlbsecond"><a href="http://www.lbsocialny.com/">LB Social</a></string>
     <string name="restlbthird"><a href="http://www.swingbellyslongbeach.com/">Swingbelly BBQ</a></string>
-    <string name="title_activity_design_lblayout">DesignLBLayout</string>
+    <string name="title_activity_design_lblayout">Long Beach</string>
     //Niagra Falls
     <string name="nf_decs">Niagara Falls (/naɪˈæɡərə/) is the collective name for three waterfalls that straddle the international border between the Canadian province of Ontario and the American state of New York. They form the southern end of the Niagara Gorge.
 From largest to smallest, the three waterfalls are the Horseshoe Falls, the American Falls and the Bridal Veil Falls. The Horseshoe Falls lies on the border of the United States and Canada[1] with the American Falls entirely on the United States\' side, separated by Goat Island. The smaller Bridal Veil Falls are also on the United States side, separated from the American Falls by Luna Island.
@@ -31,8 +31,8 @@ The falls are 17 miles (27 km) north-northwest of Buffalo, New York, and 75 mile
     <string name="restnffirst"><a href="https://www.fujigrillny.com/">Fuji Grill</a></string>
     <string name="restnfsecond"><a href="http://anindianzaika.com/">Zaika Indian Cuisine</a></string>
     <string name="restnfthird"><a href="http://www.hardrock.com/cafes/niagara-falls-usa/">Hard Rock Cafe</a></string>
-    <string name="title_activity_design_nflayout">DesignNFLayout</string>
-    <string name="title_activity_niagra_falls">NiagraFalls</string>
+    <string name="title_activity_design_nflayout">Niagra Falls</string>
+    <string name="title_activity_niagra_falls">Niagra Falls</string>
     //Statue Of Liberty
     <string name="sol_decs">The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France to the people of the United States, was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave Eiffel. The statue was dedicated on October 28, 1886.
          The Statue of Liberty is a figure of a robed woman representing Libertas, a Roman liberty goddess. She holds a torch above her head with her right hand, and in her left hand carries a tabula ansata inscribed in Roman numerals with "JULY IV MDCCLXXVI" (July 4, 1776), the date of the U.S. Declaration of Independence. A broken chain lies at her feet. The statue became an icon of freedom and of the United States, and was a welcoming sight to immigrants arriving from abroad</string>
@@ -42,7 +42,7 @@ The falls are 17 miles (27 km) north-northwest of Buffalo, New York, and 75 mile
     <string name="restsolfirst"><a href="http://thestatueofliberty.com/food-service/">Statue Of Liberty Crown Cafe</a></string>
     <string name="restsolsecond"><a href="https://gigino-wagnerpark.com/">Gigino at Wagner Park</a></string>
     <string name="restsolthird"><a href="https://www.piera.com/">City Pear A</a></string>
-    <string name="title_activity_statue_of_liberty">StatueOfLiberty</string>
+    <string name="title_activity_statue_of_liberty">Statue Of Liberty</string>
     //Times Square
     <string name="ts_decs">Times Square is a major commercial intersection, tourist destination, entertainment center and neighborhood in the Midtown Manhattan section of New York City at the junction of Broadway and Seventh Avenue. It stretches from West 42nd to West 47th Streets.Brightly adorned with billboards and advertisements, Times Square is sometimes referred to as "The Crossroads of the World", "The Center of the Universe","the heart of The Great White Way", and the "heart of the world". One of the world's busiest pedestrian areas, it is also the hub of the Broadway Theater District and a major center of the world's entertainment industry. Times Square is one of the world's most visited tourist attractions, drawing an estimated 50 million visitors annually. Approximately 330,000 people pass through Times Square daily, many of them tourists,while over 460,000 pedestrians walk through Times Square on its busiest days.</string>
     <string name="staytsfirst"><a href="https://www.thetimehotels.com/new-york">The Time New York</a></string>
@@ -51,7 +51,7 @@ The falls are 17 miles (27 km) north-northwest of Buffalo, New York, and 75 mile
     <string name="resttsfirst"><a href="https://www.carminesnyc.com/locations/times-square">Carmines</a></string>
     <string name="resttssecond"><a href="https://www.olivegarden.com/home">Olive Garden</a></string>
     <string name="resttsthird"><a href="https://havanacentral.com/">Havana Central</a></string>
-    <string name="title_activity_times_square">TimesSquare</string>
+    <string name="title_activity_times_square">Times Square</string>
     //Rockefeller Center
     <string name="roc_decs">Rockefeller Center is a large complex consisting of 19 commercial buildings covering 22 acres (89,000 m2) between 48th and 51st Streets, facing Fifth Avenue, in New York City. Commissioned by the Rockefeller family, it is located in the center of Midtown Manhattan. The 14 original Art Deco buildings span the area between Fifth and Sixth Avenues, split by a large sunken square and a private street called Rockefeller Plaza. Five International Style buildings, built later, are located on the west side of Sixth Avenue and at the head of Rockefeller Plaza.</string>
     <string name="stayrocfirst"><a href="http://conradhotels3.hilton.com/en/hotels/new-york/the-london-nyc-NYCCNCI/index.html">The London New York</a></string>
@@ -60,7 +60,7 @@ The falls are 17 miles (27 km) north-northwest of Buffalo, New York, and 75 mile
     <string name="restrocfirst"><a href="https://www.patinagroup.com/the-sea-grill">The Sea Grill</a></string>
     <string name="restrocsecond"><a href="https://www.harrysitalian.com/">Harrys Italian Pizza Bar</a></string>
     <string name="restrocthird"><a href="https://rainbowroom.com/">Rainbow Room</a></string>
-    <string name="title_activity_rockefeller_center">RockefellerCenter</string>
+    <string name="title_activity_rockefeller_center">Rockefeller Center</string>
 
     //Brooklyn Bridge
     <string name="title_activity_display_brooklyn_bridge_info">Brooklyn Bridge</string>
